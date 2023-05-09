@@ -1,14 +1,24 @@
 
 document.addEventListener("DOMContentLoaded", onStart);
 
+// browser console init
+funtion ErudaInit(){
+   eruda.init();
+   CheckLib()
+}
+
+//libs status
+funtion CheckLib(){
+
+    console.log("*Eruda " + eruda.version + " ok!");
+    console.log("*PixiJS " + PIXI.VERSION + " ok!");
+}
 
 function onStart () {
     
-    // browser console
-    eruda.init();
+
     
-    // libs status
-    console.log("*Eruda " + eruda.version + " ok!");
-    console.log("*PixiJS " + PIXI.VERSION + " ok!");
+    
+    
     
 }
